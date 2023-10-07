@@ -1,0 +1,55 @@
+*{
+    font-family: 'poppins';
+}
+body{
+    background-image: url(https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/bg.png?raw=true);
+}
+.score{
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+.txt-white{
+    color: white;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.player1{
+    border: 1px solid yellow;
+    width: 370px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    justify-content: space-between;
+}
+.comp{
+    border: 1px solid yellow;
+    width: 370px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.paper-h{
+    position:absolute;
+}
+.rock-h{
+    position:absolute;
+}
+.scissor-h{
+    position: absolute;
+    
+}
