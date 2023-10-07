@@ -9,7 +9,7 @@ const computerChoices = [
     './assets/scissors-hand.png'
 ];
 const scoresElement = document.getElementById('scores');
-var gameOverMessage = document.querySelector('.gameOverMessage');
+var gameOverMessage = document.querySelector('.overmsg');
 var playAgainButton = document.querySelector('.playAgainButton');
 const scoresText = scoresElement.textContent;
 const scoresArray = scoresText.split('-');
